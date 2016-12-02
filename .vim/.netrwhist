@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/c/Dev/Freightliner/CtaBaseUmbraco/scripts/app'
+let g:netrw_dirhist_2='/c/Dev/Detroit'
+let g:netrw_dirhist_3='/c/Dev'
+let g:netrw_dirhist_4='/c/Dev/Freightliner'
+let g:netrw_dirhist_5='/c/Dev/Freightliner/CtaBaseUmbraco'
+let g:netrw_dirhist_6='/c/Dev/Freightliner/CtaBaseUmbraco/scripts'
+let g:netrw_dirhist_7='/c/Dev/Freightliner/CtaBaseUmbraco/scripts/app'

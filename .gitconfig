@@ -1,0 +1,21 @@
+[user]
+	email = revans@tombras.com
+	name = Reid Evans
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	cmd = \"C:\\\\Program Files\\\\KDiff3\\\\kdiff3\" $BASE $LOCAL $REMOTE -o $MERGED
+[core]
+	autocrlf = true
+	excludesfile = ~/gitignore_global.txt
+[alias]
+	cm = !git add -A && git commit -m
+	co = checkout
+	cob = "!f() { git checkout ${2-develop} && git up && git checkout -b ${1}; }; f"
+	ec = config --global -e
+  lg = log --oneline --graph --decorate
+	undo = reset HEAD~1 --mixed
+	up = pull --rebase --prune
+	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+[push]
+	default = simple
